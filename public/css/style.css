@@ -1,0 +1,59 @@
+body {
+    padding-top: 15vh;
+    background: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans';
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+
+input::placeholder {
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
